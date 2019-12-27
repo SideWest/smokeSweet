@@ -1,17 +1,70 @@
 body {
-    background-color: black;
+    background-image: url("giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
-.cat {
-    display: none; 
-    /* transform: translate(-50%,-50%); */
-}
 
-.button {
-    position: absolute;
-    top: 50%;
+h1 {
+    position: fixed;
+    top: 1%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 5px black;
+    font-size: 200px;
+    text-shadow: 10px 10px 0px aqua;
+}
+
+
+.information {
+    position: fixed;
+    width: 1000px;
+    height: 500px;
+    top: 60%;
+    left: 50%;
+    background: rgba(255, 255, 255, .5);
+    transform: translate(-50%,-50%);
+    /*opacity: 0.5;*/
+    border-radius: 30px;
+    border: 3px solid aqua;
+}
+
+img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(20%, 20%);
+    /*opacity: 0.7;*/
+}
+
+img:hover {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(20%, 20%);
+    opacity: 0.7;
+
+}
+
+.text {
+    font-family: 'Russo One', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 50px;
+    text-indent: 1em; /* Отступ первой строки */
+    -webkit-text-stroke: 2.4px black;
+    color: white;
+}
+
+.text:hover {
+    font-family: 'Russo One', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 50px;
+    text-indent: 1em; /* Отступ первой строки */
+    -webkit-text-stroke: 2.4px black;
+    color: white;
+    text-shadow: 5px 5px 5px red;
 
 }
