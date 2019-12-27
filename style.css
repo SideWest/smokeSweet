@@ -30,21 +30,25 @@ h1 {
     border: 3px solid aqua;
 }
 
-img {
+.sailor {
     position: absolute;
     right: 0;
     bottom: 0;
     transform: translate(20%, 20%);
-    /*opacity: 0.7;*/
 }
 
-img:hover {
+.sailor:hover {
     position: absolute;
     right: 0;
     bottom: 0;
     transform: translate(20%, 20%);
     opacity: 0.7;
 
+}
+
+.porn {
+    position: absolute;
+    display: none;
 }
 
 .text {

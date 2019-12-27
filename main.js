@@ -1,16 +1,21 @@
 
 
-function smoke() {
-    $('button').css({
+function wow() {
+    console.log(1)
+    $('.sailor').css({
         display: 'none'
     });
-    $('.cat').css({
-        display: 'block',
-        position: 'absolute',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%,-50%)'
+    $('.porn').css({
+        display: 'block'
+    });
+
+    $('.information').css({
+        display: 'none'
     })
+    $('h1').css({
+        display: 'none'
+    })
+
 
 }
 
