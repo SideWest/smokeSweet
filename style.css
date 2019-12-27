@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.cat {
+    display: none; 
+    /* transform: translate(-50%,-50%); */
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+
+}
